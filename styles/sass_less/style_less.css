@@ -1,0 +1,56 @@
+/* COLOR PALETTE */
+body {
+  background-color: #f4f1de;
+  margin: 0;
+  font-family: Oswald;
+}
+body header {
+  height: 20%;
+  background-color: #3d405b;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body header img a {
+  float: left;
+  width: 20%;
+  max-width: 120px;
+  aspect-ratio: 1;
+}
+body header h1 {
+  color: #f4f1de;
+  font-size: 60px;
+}
+body header .register {
+  background-color: #f4f1de;
+  height: 10%;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+body header .register a {
+  text-decoration: none;
+}
+body .article {
+  margin: 20px;
+}
+body .article img {
+  float: left;
+  width: 50%;
+}
+body .article .article-info {
+  display: flex;
+  justify-content: center;
+}
+body .article .article-info h1 {
+  float: left;
+  margin: 20px;
+  width: 100%;
+}
+body .article .article-info .tags {
+  float: left;
+  width: 100%;
+}
+.spacer {
+  width: 100%;
+}

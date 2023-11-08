@@ -1,0 +1,65 @@
+/* COLOR PALETTE */
+
+@yellow: #f4f1de;
+@coral: #e07a5f;
+@darkblue: #3d405b;
+@purple: #a882dd;
+@header-height: 20%;
+
+body {
+	background-color: @yellow;
+	margin: 0;
+	font-family: Oswald;
+	header {
+		height: @header-height;
+		background-color: @darkblue;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		img a {
+			float: left;
+			width: @header-height;
+			max-width: 120px;
+			aspect-ratio: 1;
+		}
+		h1 {
+			color: @yellow;
+			font-size: 60px;
+		}
+		.register {
+			background-color: @yellow;
+			height: 10%;
+			padding: 5px;
+			border-radius: 5px;
+			margin: 10px;
+		}
+		.register a {
+			text-decoration: none;
+		}
+	}
+	.article {
+		margin: 20px;
+		img {
+			float: left;
+			width: 50%;
+		}
+		.article-info {
+            display: flex;
+            justify-content: center;
+			h1 {
+				float: left;
+				margin: 20px;
+                width: 100%;
+			}
+            .tags{
+                float: left;
+                width: 100%;
+            }
+		}
+	}
+}
+
+
+.spacer{
+    width: 100%;
+}
